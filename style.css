@@ -1,0 +1,18 @@
+body { height: 100vh;
+       color: #1f1f1f;
+       background: linear-gradient(to bottom, #bada55, #c0ffee);
+     }
+
+     .redondo {
+      border-radius: 120px 40px;
+     }
+
+     div{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    a {
+      transition: transform 1s
+    }
