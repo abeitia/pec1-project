@@ -1,20 +1,5 @@
-
-const $modal = document.querySelector('#modal');
-
-function showform(event)
-{
-
-    _showModal();
-}
-
-function hideform(event)
-{
-
-    _hideModal();
-}
-
 /**
- * Shows the modal modifiying the data-isVisible attribute
+ * Shows the modal
  */
  function _showModal() {
     const $modalWrapper = document.querySelector('#modal-wrapper');
@@ -22,16 +7,17 @@ function hideform(event)
 }
 
 /**
- * TODO: Hides the modal.
- *
- * - Should only hide the modal when the user clicks on the modal Wrapper (not the modal itself!)
+ * Hides the modal
  */
 function _hideModal(e) {
     const $modalWrapper = document.querySelector('#modal-wrapper');
-
-	
-		$modalWrapper.removeAttribute('data-isVisible');
-	
-	
-
+	$modalWrapper.removeAttribute('data-isVisible');
 }
+
+ const $btnBuscar = document.querySelector('#btnBuscar');
+ $btnBuscar.addEventListener('click', _showModal);
+
+ 
+ const $btnClose = document.querySelector('#btnClose');
+ $btnClose.addEventListener('click', _hideModal);
+

@@ -557,7 +557,7 @@ Página Enlaces
     margin-bottom: 24px
 }
 
-.grid-container-reference > li > {
+.grid-container-reference > li  {
     color: var(--bg-dark-color);
     text-decoration: none; 
 }
@@ -735,7 +735,7 @@ ul.destinos > li  >  a:hover
   
   
   
-  .form button {
+ #btnClose {
     cursor: pointer;
     background-color: steelblue;
     border: 2px solid steelblue;
@@ -748,7 +748,7 @@ ul.destinos > li  >  a:hover
     width: 100%;
   }
 
-  button[type="button"]
+  #btnBuscar
   {
     cursor: pointer;
     background-color: var(--bg-dark-color);
