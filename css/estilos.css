@@ -1,11 +1,8 @@
 /**Estilos para el sitio web Viajes ABC */
 
 :root {
-    /* --text-color: rgb(0, 0, 122); */
-    /* --text-color:#F8F6F1; */
     --text-color: rgb(0, 0, 0);
     --contrast-color: #c9f227; 
-    
     --bg-dark-color: rgb(0, 22, 74);
     --bg-light-color: rgba(0,0,0,0.1); 
     --text-light-color: #F8F6F1;
@@ -39,7 +36,7 @@ a {
     text-decoration: none; 
 }
 
-/* Revisar */
+
 a:hover {
     color: var(--text-color);
 }
@@ -53,7 +50,7 @@ abbr {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     line-height: 1em;
     margin-bottom: 1.5rem;
 }
@@ -128,25 +125,9 @@ header {
 
 }
 
-/* footer {
-    
-    padding-top: 50px;
-    padding-bottom: 50px;    
-    background-color: var(--bg-dark-color);
-    color: var(--text-light-color);
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-} */
 
-/* footer {
-    color: var(--text-light-color);
-    background-color: var(--bg-dark-color);
-    width: 100%;
-     height: 81px; 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-} */
+
+
 
 #page-container {
     position: relative;
@@ -361,14 +342,11 @@ footer .credit p {
     }
 }
 
-/************************************************************
-Página de inicio
-*************************************************************/
 
 
 
 /************************************************************
-Página Categorias 1
+Página Categorias 
 *************************************************************/
 
 .grid-container-category > figure {
@@ -386,48 +364,10 @@ Página Categorias 1
     }
 }
 
-/* #literatura.grid-container > div {
-    background-color: var(--bg-light-color);
-    padding: 15px;
-}
-
-#literatura.grid-container > div.image {
-    padding: 0;
-    background-color: transparent;
-    margin-bottom: 24px;
-}
-
-#literatura.grid-container > div.image img {
-    display: block;
-} */
 
 
 
-
-/* @media (min-width: 768px) {
-    #literatura cite {
-        font-size: 2rem;
-    }
-    #literatura.grid-container {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-gap: 24px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    #literatura.grid-container > div.image {
-        margin-bottom: 0;
-    }
-}
-@media (min-width: 1200px) {
-    #literatura cite {
-        font-size: 3rem;
-    }
-} */
-
-
-
-/* Pagina Categoria */
+/* Pagina Categorias */
 
 .title--big .title__primary
 {
@@ -439,14 +379,12 @@ Página Categorias 1
 	line-height: 1.333em;
 	font-size: 2.000em;
 	text-transform: uppercase;
-	/* font-family: Oxygen; */
 	font-weight: 700;
 	font-style: normal;
 }
 
 .title__subtitle {
 	margin-bottom: 10px;
-	/* font-family: 'Kaushan Script'; */
 	font-size: 1.200em;
 }
 
@@ -473,10 +411,6 @@ Página Categorias 1
 	width: 30px;
 	bottom: -1px;
 	left: 50%;
-	-moz-transform: translate(-50%,0);
-	-ms-transform: translate(-50%,0);
-	-webkit-transform: translate(-50%,0);
-	-o-transform: translate(-50%,0);
 	transform: translate(-50%,0);
 	width: 50px;
 }
@@ -494,8 +428,6 @@ Página Categorias 1
     margin-left: 10px;
 	cursor: pointer;
 	line-height: 1.65;
-	-webkit-appearance: none;
-	-webkit-font-smoothing: inherit;
 	text-decoration: none !important;
 	max-width: 100%;
 	transition: .15s all ease;
@@ -527,11 +459,9 @@ Página Categorias 1
 }
 
 .item-attributes {
-	/* display: table; */
 	width: 100%;
 	height: 50px;
 	border-top: 1px solid #e4e4e4;
-	/* background: #fff; */
 	font-weight: 700;
 	font-style: normal;
 }
@@ -653,10 +583,8 @@ nav.menu-interior li.active {
 
 article ul {
     font-size: 1.25rem;
-    /* padding-left: 30px; */
     padding-right: 30px;
     margin-bottom: 1rem;
-   
     list-style-type: square;
 }
 
@@ -696,8 +624,6 @@ article figure figcaption {
     }
     article {
         text-align: justify;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
         hyphens: auto;
         margin-top: 1rem;
     }
@@ -800,7 +726,6 @@ ul.destinos > li  >  a:hover
     font-size: 16px;
     padding: 10px;
     margin-top: 10px;
-    /* width: 100%; */
   }
 
   .ModalWrapper {
