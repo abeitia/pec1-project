@@ -1,2 +1,1 @@
-const name1 = 'woreld457';
-console.log(`Hellos ${name1}`);
+console.log('Running!');
