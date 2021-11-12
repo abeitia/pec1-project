@@ -219,14 +219,17 @@ h1.banner  {
  
 }
 
+
+
 h1.banner::after {
     background-image: url(../img/logo2.png);
     background-size: 100%;
+    background-repeat: no-repeat;
     display: inline-block;
     width: 2rem; 
     height: 2rem;
-    margin-right: 15px;
-    content:"";
+    margin-right: 15px; 
+    content:""; 
 }
 
 h1.banner a {
@@ -648,6 +651,19 @@ article ul {
     list-style-type: square;
 }
 
+p.credits > cite > a {
+    color: var(--bg-dark-color);
+
+}
+
+.mainvideo
+{
+    padding-bottom: 25px;
+}
+
+
+
+
 article figure figcaption {
     font-size: 0.9rem;
     padding-top: 15px;
@@ -786,5 +802,18 @@ ul.destinos > li  >  a:hover
 	padding: 3rem;
 	text-align: center;
 	border-radius: 0.2rem;
+}
+
+ul.lista {
+    margin-left: 30px;
+    list-style-type: square;
+}
+ul.lista li {
+    font-size: 2rem;
+   
+}
+ul.lista li li {
+    font-size: 1.3rem;
+    margin-left: 30px;
 }
   
