@@ -661,6 +661,7 @@ Página de detalle
 nav.menu-interior {
     font-family: 'Open Sans', sans-serif;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 nav.menu-interior ul {
@@ -674,7 +675,7 @@ nav.menu-interior ul li {
     line-height: 1.8;
 }
 
-nav.menu-interior h2x`x` {
+nav.menu-interior h2 {
     font-size: 0.9rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -890,7 +891,7 @@ ul.lista li li {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width:  1200px) {
     .grid-container-category {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
