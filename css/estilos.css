@@ -650,7 +650,7 @@ div.reference > a:hover
         grid-template-columns: 1fr 1fr 1fr ;
         grid-gap: 24px;
         margin-top: 50px;
-        margin-bottom: 70px;
+        margin-bottom: 90px;
         list-style: none;
     }
 }
