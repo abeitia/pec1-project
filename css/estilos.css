@@ -661,8 +661,8 @@ Página de detalle
 nav.menu-interior {
     font-family: 'Open Sans', sans-serif;
     padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 300px;
+    margin-bottom: 300px;
 }
 
 nav.menu-interior ul {
