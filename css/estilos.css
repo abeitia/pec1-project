@@ -19,6 +19,7 @@ body {
     font-weight: 400;
     color: var(--text-color);
     line-height: 1.5;
+    /* transition:transitionIn 5s; */
 
 }
 
@@ -65,18 +66,136 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
 
+@media (min-width: 768px) {
+    h2 {
+    font-size: 2.25rem;
+    
+    }
+    
+}
+
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    h3 {
+    font-size: 1.6rem;
+    
+    }
+    
+}
+
+.img-fluid-ad {
+
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+
+
 }
 
 .img-fluid {
     max-width: 100%;
+
+    /* width: 150px;
+    height: 150px; */
+    transition-property: color, width, background, border-radius, opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
 }
+
+.img-fluid:hover{
+    color: #ffffff;
+     /* width: 250px;
+    height: 250px;  */
+    background:#2D31B3;
+    border-radius: 50%; 
+    /* transform: rotate(5deg); */
+    opacity:0.7;
+}
+
+.clip-polygon
+{
+    clip-path: polygon(25px 59px, 438px 122px, 842px 114px, 1004px 49px, 1208px 145px, 1213px 438px, 676px 416px, 340px 454px, 54px 422px, 23px 82px);
+}
+
+/* Animation #1 begin */
+.loading {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loading--full-height {
+    align-items: center;
+    height: 100%;
+  }
+
+  .loading::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 10px solid #dddddd;
+    border-top-color: #009579;
+    border-radius: 50%;
+    transform: rotate(0.16turn);
+    animation: loading 1s ease 1;
+   
+  }
+
+  @keyframes loading {
+    /* Safari support */
+    from {
+      transform: rotate(0turn);
+    }
+    
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  /* Animation #1 end */
+
+  @keyframes transitionIn {
+    /* Safari support */
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+      /* transform: rotateX(-10deg); */
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        /* transform: rotateX(0); */
+    }
+  }
+
+  @keyframes nav-load {
+   
+    0% {
+
+      transform: translateY(-100%);
+
+    }
+
+    50% {
+
+        transform: translateY(-50%);
+  
+      }
+    
+    100% {
+       
+        transform: translateY(0);
+    }
+  }
 
 .video-fluid {
     position: relative;
@@ -122,6 +241,7 @@ header {
     font-family: 'Open Sans', sans-serif; 
     background: var(--bg-dark-color);
     color: var(--text-light-color); 
+    
 
 }
 
@@ -174,6 +294,7 @@ section {
     padding-right: 15px;
     padding-left: 15px;
     width: 100%;
+    
 }
   
 @media (min-width: 576px) {
@@ -200,36 +321,9 @@ section {
     }
 }
 
-/****************************
-Titular del Sitio (new)
-*****************************/
-
-h1.banner  {
-    color: white;
- 
-}
 
 
 
-h1.banner::after {
-    background-image: url(../img/logo2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    width: 2rem; 
-    height: 2rem;
-    margin-right: 15px; 
-    content:""; 
-}
-
-h1.banner a {
-    color: inherit;
-    border: none;
-}
-
-h1.banner span {
-    color:var(--contrast-color);
-}
 
 
 /************************************************************
@@ -251,6 +345,8 @@ Menú de navegación del sitio
 nav.nav {
     text-align: center;
     color: var(--text-light-color);
+    animation: nav-load 300ms ease-in ;
+    
 }
 nav.nav ul {
     margin-top: 15px;
@@ -269,6 +365,7 @@ nav.nav ul li a {
 nav.nav ul li a:hover {
     border: none;
     color: var(--contrast-color);
+    /* background-color: #FFFFFF44; */
 }
 
 nav.nav a.active {
@@ -348,6 +445,26 @@ footer .credit p {
 /************************************************************
 Página Categorias 
 *************************************************************/
+
+
+/* .image{
+    transition-property: color, width, background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+} */
+
+
+
+   
+
+
+/* .img-fluid:active{
+    color: #000000;
+    width: 150px;
+    background:#00DDB3;
+   
+} */
 
 .grid-container-category > figure {
     background-color: var(--bg-light-color);
@@ -561,7 +678,7 @@ nav.menu-interior ul li {
     line-height: 1.8;
 }
 
-nav.menu-interior h3 {
+nav.menu-interior h2x`x` {
     font-size: 0.9rem;
     font-weight: 400;
     text-transform: uppercase;

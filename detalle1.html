@@ -20,10 +20,12 @@
     <header>
         <div class="container">
             
-            <h1 class="banner"><a href="index.html">Viajes<span>ABC</span></a></h1> 
+            <div class="brand">
+                <a href="index.html"><img src="img/logo3.png" alt="logo del sitio" title="Agencia de Viajes ABC" width="307" height="70"></a>
+            </div>
             <nav class="nav">
                 <ul>
-                    <li><a href="index.html" >Inicio</a></li>
+                   
                     <li><a href="categorias.html" >Categorías</a></li>
                     <li><a href="presentacion.html" >Presentación</a></li>
                     <li><a href="enlaces.html" >Enlaces</a></li>
@@ -35,18 +37,24 @@
         <div class="container">  
 
             <div class="flex-container">
-                <div class="image">
+                 <div class="image">
                     <figure class="image">
-                        <img src="img/bocas1.jpg" alt="Casas sobre el agua" class="img-fluid">
+                        <!-- <img src="img/playa1.jpg" alt="Casas sobre el agua" class="img-fluid-ad"> -->
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="img/bocas-yellow-1200-c.jpg">
+                            <source media="(min-width: 800px)" srcset="img/bocas-yellow-650-ad.jpg">
+                            <img src="img/bocas-yellow-350-ad.jpg" alt="Casas sobre el agua en Bocas del Toro" class="img-fluid-ad">
+                          </picture>
                         <figcaption>
                             <p>Casas sobre el agua, Bocas del Toro, Panamá</p>
                         </figcaption>
                     </figure>
-                </div>
+                </div> 
+
    
 
                 <article>
-                    <h2>Bocas del Toro</h2>
+                    <H1>Bocas del Toro</h1>
                     <p>
                         Representando la vibrante cultura caribeña de Panamá, la provincia de Bocas del Toro comprende parte del territorio continental de Panamá, así como una cadena de islas en el Mar Caribe.
                     </p>
@@ -57,7 +65,7 @@
                         Hay tres islas principales en Bocas del Toro: la isla principal, Isla Colón; Isla Bastimentos, que es una de las islas más grandes de Panamá; y la pequeña isla de Isla Carenero.
                     </p>
                     
-                    <h3>Información del Paquete</h3>
+                    <H2>Información del Paquete</H2>
                     <p>Precio Desde: US$ 615.00 por persona</p>
 
                     <ul class="lista">
@@ -88,7 +96,7 @@
                     
                 </article>
                 <nav class="menu-interior">
-                    <h3>Otros destinos de playa</h3>
+                    <H2>Otros destinos de playa</H2>
                     <ul class="destinos">
                         
                         <li lang="en"><a href="detalle1.html">Colón</a></li>
@@ -108,7 +116,7 @@
                 <div class="popupcontainer">
 
    
-                    <h3>Buscar Hotel</h3>
+                    <H2>Buscar Hotel</H2>
                     <div class="form">
                          
                                 <div class="form-control">
@@ -183,13 +191,13 @@
     <footer id="footer">
         <div class="container">
             <div>
-               
-                    <div class="banner"><a href="index.html">Viajes<span>ABC</span></a></div>
+                <a href="index.html"><img src="img/logo3.png" alt="logo del sitio" title="Agencia de Viajes ABC" width="307" height="70"></a>
             </div>
             <ul>
-                <li><a href="">Aviso legal</a></li>
-                <li><a href="">Política de privacidad</a></li>
-                <li><a href="">Política de cookies</a></li>
+                
+                <li><a href="categorias.html" >Categorías</a></li>
+                <li><a href="presentacion.html">Presentación</a></li>
+                <li><a href="enlaces.html" >Enlaces</a></li>
             </ul>
             <div class="credit">
                 <p>2021 &copy; Viajes ABC</p>
