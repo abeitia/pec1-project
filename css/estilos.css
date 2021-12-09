@@ -91,6 +91,13 @@ h3 {
     
 }
 
+.image
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 .img-fluid-ad {
 
     display: block;
