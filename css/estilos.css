@@ -954,6 +954,10 @@ ul.lista li li {
 
 }
 
+.container-svg .icon.heart{
+   cursor: pointer;
+}
+
 .container-svg .icon.heart path
 {
     stroke-dasharray: 500;
