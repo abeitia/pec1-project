@@ -932,3 +932,71 @@ ul.lista li li {
         margin-bottom: 50px;
     }
 }
+
+/* Animacion SVG */
+.container-svg {
+    width: 50px;
+
+}
+
+.container-svg .icon
+{
+    width: 48px;
+
+}
+
+.container-svg .icon path
+{
+    fill:transparent;
+    stroke-width:1;
+    stroke: var(--bg-dark-color);
+    
+
+}
+
+.container-svg .icon.heart path
+{
+    stroke-dasharray: 500;
+    stroke-dashoffset: 0;
+}
+
+.container-svg .icon.heart:hover path
+{
+    animation: animate-heart 1.5s ease-in forwards;
+}
+
+@keyframes animate-heart {
+    0% {
+        stroke-dashoffset: 0;
+        
+    }
+
+    50% {
+        stroke-dashoffset: 250;
+        fill:transparent;
+    }
+
+    80% {
+        stroke-dashoffset: 250;
+        fill:var(--contrast-color);
+    }
+
+
+    100% {
+        stroke-dashoffset: 500;
+        fill: var(--bg-dark-color);
+   
+    }
+
+
+}
+
+#addfav
+{
+    text-align:left;
+    hyphens:none;
+    font-size: 0.9rem;
+    padding-bottom:60px ;
+
+   
+}
