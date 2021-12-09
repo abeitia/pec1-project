@@ -626,9 +626,12 @@ Página Enlaces
 
 .grid-container-reference >li > img { 
   margin-bottom: 10px;
- display: block;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 
 }
+
 
 div.reference > a
 {
@@ -642,15 +645,27 @@ div.reference > a:hover
     background: var(--bg-dark-color);
 }
 
+
+
+
+
+.container-references
+{
+    padding-bottom: 60px;
+    justify-content:space-around;
+}
+
 .grid-container-reference
 {
     list-style: none;
 }
+ 
 
 @media (min-width: 768px) {
     .grid-container-reference {
         display: grid;
         grid-template-columns: 1fr 1fr ;
+        
         grid-gap: 36px;
         margin-top: 50px;
         margin-bottom: 50px;
