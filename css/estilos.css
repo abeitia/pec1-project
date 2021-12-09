@@ -965,6 +965,12 @@ ul.lista li li {
     animation: animate-heart 1.5s ease-in forwards;
 }
 
+.container-svg .icon.heart:active path
+{
+    animation: animate-heart 1.5s ease-in forwards;
+}
+
+
 @keyframes animate-heart {
     0% {
         stroke-dashoffset: 0;
