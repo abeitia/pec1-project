@@ -109,7 +109,9 @@ h3 {
 
 .img-fluid-rd {
 
-    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 900px;
     
 
 
