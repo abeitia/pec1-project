@@ -135,10 +135,7 @@ h3 {
     opacity:0.7;
 }
 
-.clip-polygon
-{
-    clip-path: polygon(25px 59px, 438px 122px, 842px 114px, 1004px 49px, 1208px 145px, 1213px 438px, 676px 416px, 340px 454px, 54px 422px, 23px 82px);
-}
+
 
 /* Animation #1 begin */
 .loading {
@@ -1034,3 +1031,31 @@ div.home p:last-child {
 div.home p:first-child {
     padding-top: 30px;
   }
+
+  /* < 576 px */
+  .clip-polygon
+{
+    /* clip-path: polygon(25px 59px, 438px 122px, 842px 114px, 1004px 49px, 1208px 145px, 1213px 438px, 676px 416px, 340px 454px, 54px 422px, 23px 82px); */
+    clip-path:polygon(0px 235px, 93px 210px, 0px 138px, 0px 0px, 100px 1px, 179px 121px, 234px 1px, 408px 64px, 614px 2px, 661px 134px, 774px 0px, 900px 0px, 900px 168px, 818px 206px, 900px 244px, 900px 363px, 782px 364px, 661px 302px, 473px 364px, 247px 331px, 150px 363px, 0px 363px);
+}
+
+  @media (min-width: 768px) {
+    .clip-polygon
+{
+    clip-path:polygon(0px 235px, 93px 210px, 0px 138px, 0px 0px, 100px 1px, 179px 121px, 234px 1px, 408px 64px, 614px 2px, 661px 134px, 774px 0px, 900px 0px, 900px 168px, 818px 206px, 900px 244px, 900px 363px, 782px 364px, 661px 302px, 473px 364px, 247px 331px, 150px 363px, 0px 363px);
+}
+}
+
+@media (min-width: 992px) {
+    .clip-polygon
+{
+    clip-path:polygon(0px 235px, 93px 210px, 0px 138px, 0px 0px, 100px 1px, 179px 121px, 234px 1px, 408px 64px, 614px 2px, 661px 134px, 774px 0px, 900px 0px, 900px 168px, 818px 206px, 900px 244px, 900px 363px, 782px 364px, 661px 302px, 473px 364px, 247px 331px, 150px 363px, 0px 363px);
+}
+}
+
+@media (min-width:  1200px) {
+    .clip-polygon
+    {
+        clip-path:polygon(0px 235px, 93px 210px, 0px 138px, 0px 0px, 100px 1px, 179px 121px, 234px 1px, 408px 64px, 614px 2px, 661px 134px, 774px 0px, 900px 0px, 900px 168px, 818px 206px, 900px 244px, 900px 363px, 782px 364px, 661px 302px, 473px 364px, 247px 331px, 150px 363px, 0px 363px);
+    }
+}
