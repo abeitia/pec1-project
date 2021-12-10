@@ -109,7 +109,8 @@ h3 {
 
 .img-fluid-rd {
 
-    width: 900px;
+    /* width: 1200px; */
+    max-width: 100%;
 
 
 }
@@ -1035,8 +1036,8 @@ div.home p:first-child {
   /* < 576 px */
   .clip-polygon
 {
-    /* clip-path: polygon(25px 59px, 438px 122px, 842px 114px, 1004px 49px, 1208px 145px, 1213px 438px, 676px 416px, 340px 454px, 54px 422px, 23px 82px); */
-    clip-path:polygon(0px 82px, 30px 68px, 0px 47px, 0px 0px, 30px 1px, 46px 33px, 66px 2px, 93px 0px, 118px 0px, 157px 22px, 189px 2px, 212px 2px, 208px 34px, 258px 1px, 300px 0px, 300px 121px, 262px 121px, 220px 99px, 167px 121px, 88px 101px, 49px 121px, 0px 121px);
+   
+    clip-path: polygon(0px 82px, 30px 68px, 0px 47px, 0px 0px, 30px 1px, 46px 33px, 66px 2px, 93px 0px, 118px 0px, 157px 22px, 189px 2px, 212px 2px, 208px 34px, 258px 1px, 300px 0px, 300px 48px, 260px 71px, 300px 80px, 300px 121px, 262px 121px, 220px 99px, 167px 121px, 88px 101px, 49px 121px, 0px 121px);
 }
 
   @media (min-width: 768px) {
