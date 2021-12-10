@@ -1017,3 +1017,13 @@ ul.lista li li {
 
    
 }
+
+
+/* Página Inicio */
+div.home p:last-child {
+  padding-bottom: 30px;
+}
+
+div.home p:first-child {
+    padding-top: 30px;
+  }
